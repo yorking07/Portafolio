@@ -1,0 +1,15 @@
+.skills__image{
+    width: 80px;
+}
+.skills__ul{
+    list-style: none;
+    display: grid ;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+.skillls__li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
