@@ -1,13 +1,18 @@
 import React from 'react'
 import Home from './components/Home'
-import Portafolio from './components/Portafolio'
+import Pagination from './components/Pagination'
+
 
 const App = () => {
+  
+
   return (
     <>
     <Home/>
-    <Portafolio/>
+    <Pagination/>
+    
     </>
+    
   )
 }
 

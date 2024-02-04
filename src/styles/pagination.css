@@ -1,0 +1,44 @@
+.is-current{
+    background-color: blue;
+}
+.pagination{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.pagination-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.pagination-previous{
+    background-color: transparent;
+    border: none;
+}
+.pagination-next{
+    background-color: transparent;
+    border: none;
+}
+
+.pagination-previous-icon{
+    margin-top: 3.5vh;
+    width: 8vh;
+}
+.pagination-previous-icon:hover{
+    color: white;
+    transform: scale(1.1); /* Aumenta el tamaño en un 10% */
+    cursor: pointer;
+}
+
+.pagination-previous-icon-next{
+    margin-top: 3.5vh;
+    width: 8vh;
+    rotate: 180deg;
+}
+.pagination-previous-icon-next:hover{
+    color: white;
+    transform: scale(1.1); /* Aumenta el tamaño en un 10% */
+    cursor: pointer;
+    
+}
