@@ -1,6 +1,4 @@
-.is-current{
-    background-color: blue;
-}
+
 .pagination{
     width: 100%;
     display: flex;
@@ -41,4 +39,23 @@
     transform: scale(1.1); /* Aumenta el tamaño en un 10% */
     cursor: pointer;
     
+}
+.pagination-link{
+    font-size: 20px;
+    height: 45px;
+    width: 45px;
+    background-color: transparent;
+    border-color: black;
+    border-radius: 25%;
+    border: 2px solid rgb(0, 0, 0)
+}
+.is-current{
+    background-color: blue;
+}
+
+.pagination-list-li{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
 }

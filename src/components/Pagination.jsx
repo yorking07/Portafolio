@@ -45,7 +45,7 @@ const firstIndex = lastIndex-3
 
         <ul className="pagination-list">
           {pageNumber.map(noPage => 
-            <li>
+            <li className="pagination-list-li">
               <button className={`pagination-link ${noPage === currentPage ? 'is-current' : ''}`} onClick={ () => onSpecificPage(noPage)} >{noPage}</button>
               
             </li>
