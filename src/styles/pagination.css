@@ -13,8 +13,10 @@
 .pagination-previous{
     background-color: transparent;
     border: none;
+    width: 80px;
 }
 .pagination-next{
+    width: 80px;
     background-color: transparent;
     border: none;
 }
@@ -58,4 +60,9 @@
     display: flex;
     align-items: center;
     padding-right: 10px;
+}
+
+.div-icon{
+    margin-top: 3.5vh;
+    width: 80px;
 }
