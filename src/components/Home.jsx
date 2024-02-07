@@ -10,10 +10,10 @@ const Home = () => {
         <section className="Title">Desarrollador Web Full Stack</section>
         <section className="home__section">
           <span className="home__li__parrafo">
-            Hola, mi nombre es Jorge Manuel Cantillo ,Egresado del programa de
+            Hola, mi nombre es Jorge Manuel Cantillo, Egresado del programa de
             desarrollo web y ciencias de la computación de la academía mexicana
             "Academlo " y actualmente estudiante de Ingenieria Electronica, A
-            continiacion les mostrare mi portafolio{" "}
+            continuacion les mostrare mi portafolio{" "}
           </span>
 
           <span className="home__image">

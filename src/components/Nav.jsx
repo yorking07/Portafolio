@@ -5,9 +5,13 @@ const Nav = () => {
   return (
     <>
       <nav className="nav-container">
-        <span>
-          DRAOB
-        </span>
+        
+          <section className="logotipo-container">
+            <img className="logotipo" src="https://cdn-icons-png.flaticon.com/128/3621/3621580.png"  />
+          <span className="name">
+              DRAOB
+          </span>
+        </section>
 
         <span className="Logos-de-contacto">
           <a href="https://www.google.com" target="_blank" className="logo-de-contacto">
@@ -26,7 +30,7 @@ const Nav = () => {
               alt=""
             />{" "}
           </a>
-          <a href="https://www.google.com" target="_blank" className="logo-de-contacto">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jorgek070604@gmail.com" target="_blank" className="logo-de-contacto">
             {" "}
             <img
               className="nav__logotipo__contacto"
@@ -43,6 +47,7 @@ const Nav = () => {
             />{" "}
           </a>
         </span>
+        
       </nav>
     </>
   );
