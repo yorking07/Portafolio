@@ -1,4 +1,8 @@
 
+.Pagination-container{
+    height: 650px;
+}
+
 .pagination{
     width: 100%;
     display: flex;

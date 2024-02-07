@@ -33,7 +33,7 @@ body {
 .image__home{
     width: 200px;
     border-radius: 50%;
-    box-shadow: rgb(3, 175, 218) 1px 3px 10px 4px;
+    box-shadow: 0 0 10px 5px rgba(224, 15, 213, 0.795);
 }
 .home__image{
     display: flex;

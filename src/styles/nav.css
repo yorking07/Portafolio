@@ -1,20 +1,31 @@
-.nav-container{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.nav-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 10px 5px rgba(224, 15, 213, 0.795);
 }
 
-.logotipo{
-    width: 160px;
-    height: 80px;
+.logotipo {
+  width: 160px;
+  height: 80px;
 }
 
-.logo-de-contacto{
+.logo-de-contacto {
   background-color: transparent;
+  
+}
+
+.nav__logotipo__contacto {
+  height: 40px;
+}
+.Logos-de-contacto {
+  display: flex;
+  gap: 15px;
+  padding-right: 2%;
 }

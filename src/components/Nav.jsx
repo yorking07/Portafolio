@@ -5,17 +5,15 @@ const Nav = () => {
   return (
     <>
       <nav className="nav-container">
-        <img
-          className="logotipo"
-          src="https://c8.alamy.com/compes/2edwr2t/plantilla-de-logotipo-de-la-letra-j-monnogram-delicado-diseno-floral-logotipo-personal-diseno-vectorial-2edwr2t.jpg"
-          alt=""
-        />
+        <span>
+          DRAOB
+        </span>
 
         <span className="Logos-de-contacto">
           <a href="https://www.google.com" target="_blank" className="logo-de-contacto">
             {" "}
             <img
-              
+              className="nav__logotipo__contacto"
               src="https://cdn-icons-png.flaticon.com/128/5968/5968866.png"
               alt=""
             />{" "}
@@ -23,6 +21,7 @@ const Nav = () => {
           <a href="https://www.google.com" target="_blank" className="logo-de-contacto">
             {" "}
             <img
+              className="nav__logotipo__contacto"
               src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png"
               alt=""
             />{" "}
@@ -30,6 +29,7 @@ const Nav = () => {
           <a href="https://www.google.com" target="_blank" className="logo-de-contacto">
             {" "}
             <img
+              className="nav__logotipo__contacto"
               src="https://cdn-icons-png.flaticon.com/128/5968/5968534.png"
               alt=""
             />{" "}
@@ -37,6 +37,7 @@ const Nav = () => {
           <a href="https://www.google.com" target="_blank" className="logo-de-contacto">
             {" "}
             <img
+              className="nav__logotipo__contacto"
               src="https://cdn-icons-png.flaticon.com/128/2504/2504957.png"
               alt=""
             />{" "}
