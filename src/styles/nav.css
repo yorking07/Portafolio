@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 .nav-container {
   position: fixed;
   top: 0;
@@ -16,14 +19,22 @@
   width: 100px;
   height: 80px;
 }
-.logotipo-container{
- display: grid;
- justify-items: center;
+.logotipo:hover{
+  cursor: url('https://cdn-icons-png.flaticon.com/128/3208/3208707.png'), auto;
+}
+.name:hover{
+  cursor: url('https://cdn-icons-png.flaticon.com/128/3208/3208707.png'), auto;
 }
 
 .logo-de-contacto {
-  background-color: transparent;
+  opacity: 0.8;
   
+}
+.logo-de-contacto:hover{
+  filter: brightness(2);
+  border-radius: 15%;
+  background-color: rgba(224, 15, 213, 0.795);
+  box-shadow: 0px 0px 10px 5px rgba(224, 15, 213, 0.795)
 }
 
 .nav__logotipo__contacto {
@@ -41,5 +52,7 @@
   position: absolute;
   margin-top: 37px;
   left: 32px;
-
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  
 }

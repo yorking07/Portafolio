@@ -19,6 +19,10 @@
     padding-bottom: 1%;
     font-family: 'Chelsea Market', cursive;
 }
+.portafolio__article:hover{
+    box-shadow: 0px 0px 10px 5px rgba(224, 15, 213, 0.795);
+    
+}
 
 
 .portafolio__name{
@@ -70,7 +74,7 @@
     
 }
 .portafolio__button{
-    font-family: 'Chelsea Market', cursive;
+    font-family: 'Chelsea Market';
     border-radius: 15%;
     background-color: rgb(219, 76, 76);
     text-shadow: 0 0 10px rgba(255, 230, 230, 0.8); 

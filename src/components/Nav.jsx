@@ -18,7 +18,7 @@ const Nav = () => {
             {" "}
             <img
               className="nav__logotipo__contacto"
-              src="https://cdn-icons-png.flaticon.com/128/5968/5968866.png"
+              src="https://cdn-icons-png.flaticon.com/128/3291/3291695.png"
               alt=""
             />{" "}
           </a>
@@ -26,7 +26,7 @@ const Nav = () => {
             {" "}
             <img
               className="nav__logotipo__contacto"
-              src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png"
+              src="https://cdn-icons-png.flaticon.com/128/3992/3992560.png"
               alt=""
             />{" "}
           </a>
@@ -34,7 +34,7 @@ const Nav = () => {
             {" "}
             <img
               className="nav__logotipo__contacto"
-              src="https://cdn-icons-png.flaticon.com/128/5968/5968534.png"
+              src="https://cdn-icons-png.freepik.com/256/542/542689.png?ga=GA1.1.325983082.1697844930&semt=ais"
               alt=""
             />{" "}
           </a>
@@ -42,7 +42,7 @@ const Nav = () => {
             {" "}
             <img
               className="nav__logotipo__contacto"
-              src="https://cdn-icons-png.flaticon.com/128/2504/2504957.png"
+              src="https://cdn-icons-png.flaticon.com/128/1384/1384039.png"
               alt=""
             />{" "}
           </a>

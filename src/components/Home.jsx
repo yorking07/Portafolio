@@ -12,8 +12,8 @@ const Home = () => {
           <span className="home__li__parrafo">
             Hola, mi nombre es Jorge Manuel Cantillo, Egresado del programa de
             desarrollo web y ciencias de la computación de la academía mexicana
-            "Academlo " y actualmente estudiante de Ingenieria Electronica, A
-            continuacion les mostrare mi portafolio{" "}
+            "Academlo" y actualmente estudiante de Ingenieria Electronica, A
+            continuacion les mostrare mi portafolio
           </span>
 
           <span className="home__image">
