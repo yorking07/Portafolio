@@ -2,6 +2,7 @@ import React from "react";
 import "../App.css";
 import "../styles/home.css";
 import "../styles/skills.css";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -24,9 +25,12 @@ const Home = () => {
             />
           </span>
         </section>
+        <section>
+          <Footer/>
+        </section>
       </article>
       <article className="skills">
-        <section>
+        <section >
           <span>Trabajo con los siguientes lenguajes informaticos : </span>
           <ul className="skills__ul">
             <li className="skillls__li">
