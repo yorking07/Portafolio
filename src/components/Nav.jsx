@@ -5,16 +5,21 @@ const Nav = () => {
   return (
     <>
       <nav className="nav-container">
-        
-          <section className="logotipo-container">
-            <img className="logotipo" src="https://cdn-icons-png.flaticon.com/128/3621/3621580.png"  />
-          <span className="name">
-              DRAOB
-          </span>
+        <section className="logotipo-container">
+          <img
+            className="logotipo"
+            src="https://cdn-icons-png.flaticon.com/128/3621/3621580.png"
+          />
+          <span className="name">DRAOB</span>
         </section>
 
         <span className="Logos-de-contacto">
-          <a href="https://www.google.com" target="_blank" className="logo-de-contacto">
+          {/** github*/}
+          <a
+            href="https://github.com/yorking07"
+            target="_blank"
+            className="logo-de-contacto"
+          >
             {" "}
             <img
               className="nav__logotipo__contacto"
@@ -22,7 +27,12 @@ const Nav = () => {
               alt=""
             />{" "}
           </a>
-          <a href="https://www.google.com" target="_blank" className="logo-de-contacto">
+          {/**linkedin */}
+          <a
+            href="https://www.google.com"
+            target="_blank"
+            className="logo-de-contacto"
+          >
             {" "}
             <img
               className="nav__logotipo__contacto"
@@ -30,7 +40,12 @@ const Nav = () => {
               alt=""
             />{" "}
           </a>
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jorgek070604@gmail.com" target="_blank" className="logo-de-contacto">
+          {/** gmail*/}
+          <a
+            href="mailto:jorgek070604@gmail.com"
+            target="_blank"
+            className="logo-de-contacto"
+          >
             {" "}
             <img
               className="nav__logotipo__contacto"
@@ -38,7 +53,12 @@ const Nav = () => {
               alt=""
             />{" "}
           </a>
-          <a href="https://www.google.com" target="_blank" className="logo-de-contacto">
+          {/**whatsapp */}
+          <a
+            href="https://wa.me/3246254942"
+            target="_blank"
+            className="logo-de-contacto"
+          >
             {" "}
             <img
               className="nav__logotipo__contacto"
@@ -47,12 +67,9 @@ const Nav = () => {
             />{" "}
           </a>
         </span>
-        
       </nav>
     </>
   );
 };
 
 export default Nav;
-
-
