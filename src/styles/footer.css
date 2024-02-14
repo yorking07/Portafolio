@@ -1,20 +1,17 @@
-.footer_ul{
-    list-style: none;
-    display: flex;
-    padding: 10px;
-    gap: 5vh;
- 
-
+.footer_ul {
+  list-style: none;
+  display: flex;
+  padding: 10px;
+  gap: 5vh;
 }
 
-.footer_ancore{
-    color: black;
-    text-decoration: none;
-    background-color: rgba(157, 170, 240, 0.3);
-    border-radius: 6px;
-    padding: 5px;
-
+.footer_ancore {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(157, 170, 240, 0.3);
+  border-radius: 6px;
+  padding: 5px;
 }
-.footer_ancore:hover{
-    box-shadow: 0px 0px 10px 5px rgba(224, 15, 213, 0.795);
+.footer_ancore:hover {
+  box-shadow: 0px 0px 10px 5px rgba(224, 15, 213, 0.795);
 }

@@ -1,6 +1,8 @@
 
 .Pagination-container{
     height: 650px;
+    background-color: white;
+    margin-bottom: 50px;
 }
 
 .pagination{

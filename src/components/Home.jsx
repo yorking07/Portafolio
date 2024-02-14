@@ -26,11 +26,11 @@ const Home = () => {
           </span>
         </section>
         <section>
-          <Footer/>
+          <Footer />
         </section>
       </article>
       <article className="skills">
-        <section >
+        <section>
           <span>Trabajo con los siguientes lenguajes informaticos : </span>
           <ul className="skills__ul">
             <li className="skillls__li">
