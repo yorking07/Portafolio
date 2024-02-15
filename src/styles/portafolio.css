@@ -1,11 +1,13 @@
 /* text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); */
 .contenedor__portafolio{
     display: flex;
-    margin-top: 10%;
+    margin-top: 2%;
     justify-content: space-around;
     color: black;
+    width: 1080px;
     
 }
+
 
 .portafolio__article{
     width:20%;

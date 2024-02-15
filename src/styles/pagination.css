@@ -1,12 +1,17 @@
 
+
 .Pagination-container{
-    height: 650px;
-    background-color: white;
+    position: absolute;
+    background-color: rgb(6, 49, 78);;
     margin-bottom: 50px;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    box-shadow: inset 5px 5px 10px 0 rgb(255, 18, 243);
 }
 
 .pagination{
-    width: 100%;
+    width: 1080px;
     display: flex;
     justify-content: space-around;
 

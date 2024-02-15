@@ -31,6 +31,7 @@ const Pagination = () => {
   const firstIndex = lastIndex - 3;
 
   return (
+    <div className="pagination">
     <div className="Pagination-container">
       <div className="contenedor__portafolio">
         {pages.slice(firstIndex, lastIndex)}
@@ -81,6 +82,7 @@ const Pagination = () => {
           <div className="div-icon"></div>
         )}
       </nav>
+    </div>
     </div>
   );
 };
