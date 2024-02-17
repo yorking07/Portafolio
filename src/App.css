@@ -2,7 +2,9 @@ body {
   max-width: 100%;
   padding: 0;
   margin: 0;
-  background-image: url("https://wallpapercave.com/wp/wp6360807.jpg");
+  overflow-x: hidden;
+  background-image: url("https://r4.wallpaperflare.com/wallpaper/800/831/598/neon-synthwave-digital-art-mountains-wallpaper-6fd5828c1e46dc0b654c88c2f101a4f4.jpg");
   background-repeat: no-repeat;
   color: white;
+  box-sizing: border-box;
 }

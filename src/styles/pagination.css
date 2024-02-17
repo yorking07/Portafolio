@@ -2,9 +2,9 @@
 
 .Pagination-container{
     position: absolute;
-    background-color: rgb(6, 49, 78);;
+    background-color: rgb(6, 49, 78);
     margin-bottom: 50px;
-    width: 100%;
+    width: 100vw;
     display: grid;
     justify-items: center;
     box-shadow: inset 5px 5px 10px 0 rgb(255, 18, 243);
@@ -14,7 +14,7 @@
     width: 1080px;
     display: flex;
     justify-content: space-around;
-
+    
 }
 .pagination-list{
     list-style: none;
