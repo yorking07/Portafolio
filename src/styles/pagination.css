@@ -4,10 +4,11 @@
     position: absolute;
     background-color: rgb(6, 49, 78);
     margin-bottom: 50px;
-    width: 10000px;
+    width: 100%;
     display: grid;
     justify-items: center;
     box-shadow: inset 5px 5px 10px 0 rgb(255, 18, 243);
+    height: 650px;
 }
 
 .pagination{
