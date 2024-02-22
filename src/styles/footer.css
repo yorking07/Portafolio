@@ -9,9 +9,6 @@
       box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5); 
   }
 }
-@media (min-width: 1200px) {
-  
-}
 .footer_ul {
   list-style: none;
   display: flex;
@@ -30,4 +27,26 @@
 .footer_ancore:hover {
   background-color:  rgba(224, 15, 213, 0.795);
 }
+@media (max-width: 1080px) {
+  .footer{
+    padding-left: 20px;
+    margin-top: 5vh;
+  }
+  .footer_ul {
+    list-style: none;
+    display: grid;
+    justify-content: center;
+    gap: 5vh;
+  }
+  .footer_span{
+    font-size: 19px;
 
+  }
+  .footer_ancore {
+   font-size: 18px;
+   font-weight: bolder;
+    padding: 12px;
+    
+  }
+  
+}

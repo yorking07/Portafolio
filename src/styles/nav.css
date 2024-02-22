@@ -5,7 +5,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   background-color: rgb(6, 49, 78);
   z-index: 1000;
   display: flex;
@@ -55,4 +55,17 @@
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
   
+}
+@media (max-width: 425px) {
+  .logotipo {
+    padding-left: 10px;
+    width: 70px;
+    height: 55px;
+  }
+  .name{
+    margin-top: 20px;
+    left: 17px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+  }
 }
