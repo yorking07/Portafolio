@@ -9,3 +9,6 @@ body {
   color: white;
   box-sizing: border-box;
 }
+@media (max-width: 435px ){
+  
+}
