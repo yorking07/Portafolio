@@ -99,3 +99,35 @@
     transform: scale(1.2);
     filter: brightness(1.1);
 }
+
+@media (max-width: 500px){
+    .portafolio__imagen{
+        width: 80px;
+    }
+    .portafolio__name{
+        font-size: 20px;
+        margin-top: 2vh;
+        display: flex;
+        justify-content: center;
+    }
+    .contenedor__portafolio{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+    .portafolio__li{
+        flex-direction: column;
+    }
+    .portafolio__ul{
+        gap: 10px;
+    }
+    .portafolio__article{
+        margin-top: 20px;
+        border-radius: 10px;
+        width: 28%;
+    }
+    .portafolio__label{
+        font-weight: 900;
+        text-shadow: 0 0 10px rgba(224, 15, 213, 0.795);
+    }
+}

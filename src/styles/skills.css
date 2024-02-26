@@ -16,3 +16,20 @@
     align-items: center;
     padding: 15px;
 }
+.skills__span{
+    margin-left: 20px;
+}
+@media (max-width: 500px) {
+    .skills__ul{
+        list-style: none;
+        display: grid ;
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+    .skills__image{
+        width: 50px;
+    }
+    .skills{
+
+    }
+}
