@@ -58,6 +58,7 @@ body {
     }
     .image__home{
         width: 150px;
+        height: 30vh;
         border-radius: 50%;
         box-shadow: 0 0 10px 5px rgba(224, 15, 213, 0.795);
     }
@@ -71,6 +72,7 @@ body {
     }
     .home__li__parrafo{
         width: 65%;
+        height: 30vh;
         padding: 0;
         font-size: 19px;
         font-weight: 100;

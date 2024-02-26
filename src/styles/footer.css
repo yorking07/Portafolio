@@ -30,7 +30,8 @@
 @media (max-width: 500px) {
   .footer{
     padding-left: 20px;
-    margin-top: 40px;
+    margin-top: 15vh;
+    
   }
   .footer_ul {
     list-style: none;
