@@ -82,6 +82,8 @@ body {
         font-weight: 100;
     }
 }
-@media (max-width: 370px){
-
+@media (max-width: 768px){
+    .contenedor__home{
+        width: 100vw;
+    }
 }

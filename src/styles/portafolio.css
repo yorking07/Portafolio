@@ -131,3 +131,8 @@
         text-shadow: 0 0 10px rgba(224, 15, 213, 0.795);
     }
 }
+@media (max-width: 768px){
+    .contenedor__portafolio{
+        width: 100vw;
+    }
+}

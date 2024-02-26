@@ -98,3 +98,8 @@
         width: 100vw;
     }
 }
+@media (max-width: 768px) {
+    .pagination{
+        width: 100vw;
+    }
+}
