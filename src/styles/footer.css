@@ -30,7 +30,7 @@
 @media (max-width: 500px) {
   .footer{
     padding-left: 20px;
-    margin-top: 15vh;
+    padding-top: 22vh;
     
   }
   .footer_ul {
@@ -50,4 +50,7 @@
     
   }
   
+}
+@media (max-width: 370px){
+
 }

@@ -56,6 +56,10 @@ body {
         justify-content: center;
         margin-top: 0;
     }
+    .home__image{
+        width: 150px;
+        height: 30vh;
+    }
     .image__home{
         width: 150px;
         height: 30vh;
@@ -77,4 +81,7 @@ body {
         font-size: 19px;
         font-weight: 100;
     }
+}
+@media (max-width: 370px){
+
 }
