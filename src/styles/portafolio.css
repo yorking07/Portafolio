@@ -64,6 +64,7 @@
 }
 .portafolio__label{
     font-weight: 600;
+    text-shadow: 0 0 10px rgba(224, 15, 213, 0.795);
 }
 .button{
     display: flex;
@@ -100,7 +101,7 @@
     filter: brightness(1.1);
 }
 
-@media (max-width: 500px){
+@media (max-width: 700px){
     .portafolio__imagen{
         width: 80px;
     }
@@ -128,11 +129,16 @@
     }
     .portafolio__label{
         font-weight: 900;
-        text-shadow: 0 0 10px rgba(224, 15, 213, 0.795);
+        
     }
 }
 @media (max-width: 768px){
     .contenedor__portafolio{
         width: 100vw;
+    }
+    .portafolio__article{
+        
+        border-radius: 10px;
+        width: 27%;
     }
 }

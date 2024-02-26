@@ -93,7 +93,7 @@
     margin-top: 3.5vh;
     width: 80px;
 }
-@media (max-width: 500px) {
+@media (max-width: 520px) {
     .pagination{
         width: 100vw;
     }

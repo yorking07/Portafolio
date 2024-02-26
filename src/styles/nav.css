@@ -56,7 +56,7 @@
   font-weight: bold;
   
 }
-@media (max-width: 500px) {
+@media (max-width: 520px) {
   .logotipo {
     padding-left: 10px;
     width: 70px;
@@ -67,5 +67,16 @@
     left: 17px;
     font-family: 'Quicksand', sans-serif;
     font-weight: bolder;
+  }
+}
+@media (max-width: 768px){
+  .logotipo {
+    padding-left: 10px;
+    width: 80px;
+    height: 65px;
+  }
+  .name{
+    margin-top: 28px;
+    left: 21px;
   }
 }
