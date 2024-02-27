@@ -27,10 +27,11 @@
 .footer_ancore:hover {
   background-color:  rgba(224, 15, 213, 0.795);
 }
+
 @media (max-width: 520px) {
   .footer{
     padding-left: 20px;
-    padding-top: 22vh;
+    padding-top: 15vh;
     
   }
   .footer_ul {
@@ -68,3 +69,18 @@
     padding: 8px;
   }
 }
+@media (max-width: 366px){
+ .footer{
+  margin-top: 5vh;
+ }
+ 
+}
+@media (max-width: 343px){
+  .home__li__parrafo{
+    font-size: 17px;
+  }
+  .footer{
+    font-size: 12px;
+  }
+  
+ }
