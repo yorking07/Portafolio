@@ -15,7 +15,7 @@ body {
 }
 
 .Title{
-    font-size: 6vh;
+    font-size: 46px;
     font-weight: 900;
     display: flex;
     justify-content: center;
@@ -55,14 +55,15 @@ body {
         display: flex;
         justify-content: center;
         margin-top: 0;
+        text-align: center;
     }
     .home__image{
-        width: 150px;
-        height: 30vh;
+        width: 30vw;
+        height: 24vh;
     }
     .image__home{
-        width: 150px;
-        height: 30vh;
+        width: 30vw;
+        height: 24vh;
         border-radius: 50%;
         box-shadow: 0 0 10px 5px rgba(224, 15, 213, 0.795);
     }
@@ -85,5 +86,13 @@ body {
 @media (max-width: 768px){
     .contenedor__home{
         width: 100vw;
+    }
+}
+@media (max-width: 1080px){
+    .contenedor__home{
+        width: 100vw;
+    }
+    .image__home{
+        margin-right: 3vw;
     }
 }
