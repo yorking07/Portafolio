@@ -32,57 +32,57 @@ const Pagination = () => {
 
   return (
     <div className="pagination">
-    <div className="Pagination-container">
-      <div className="contenedor__portafolio">
-        {pages.slice(firstIndex, lastIndex)}
-      </div>
-      <nav className="pagination">
-        {currentPage > 1 ? (
-          <button
-            className={`pagination-previous ${
-              currentPage === 1 ? "is-disable" : ""
-            }`}
-            onClick={onPreviusPage}
-          >
-            {" "}
-            <img
-              className="pagination-previous-icon"
-              src="https://cdn-icons-png.flaticon.com/128/8914/8914615.png"
-              alt=""
-            />{" "}
-          </button>
-        ) : (
-          <div className="div-icon"></div>
-        )}
+      <div className="Pagination-container">
+        <div className="contenedor__portafolio">
+          {pages.slice(firstIndex, lastIndex)}
+        </div>
+        <nav className="pagination">
+          {currentPage > 1 ? (
+            <button
+              className={`pagination-previous ${
+                currentPage === 1 ? "is-disable" : ""
+              }`}
+              onClick={onPreviusPage}
+            >
+              {" "}
+              <img
+                className="pagination-previous-icon"
+                src="https://cdn-icons-png.flaticon.com/128/8914/8914615.png"
+                alt=""
+              />{" "}
+            </button>
+          ) : (
+            <div className="div-icon"></div>
+          )}
 
-        <ul className="pagination-list">
-          {pageNumber.map((noPage) => (
-            <li className="pagination-list-li">
-              <button
-                className={`pagination-link ${
-                  noPage === currentPage ? "is-current" : ""
-                }`}
-                onClick={() => onSpecificPage(noPage)}
-              >
-                {noPage}
-              </button>
-            </li>
-          ))}
-        </ul>
-        {currentPage < Math.ceil(totalPages / 3) ? (
-          <button className="pagination-next" onClick={onNextPage}>
-            {" "}
-            <img
-              className="pagination-previous-icon-next"
-              src="https://cdn-icons-png.flaticon.com/128/8914/8914615.png"
-              alt=""
-            />{" "}
-          </button>
-        ) : (
-          <div className="div-icon"></div>
-        )}
-      </nav>
-    </div>
+          <ul className="pagination-list">
+            {pageNumber.map((noPage) => (
+              <li className="pagination-list-li">
+                <button
+                  className={`pagination-link ${
+                    noPage === currentPage ? "is-current" : ""
+                  }`}
+                  onClick={() => onSpecificPage(noPage)}
+                >
+                  {noPage}
+                </button>
+              </li>
+            ))}
+          </ul>
+          {currentPage < Math.ceil(totalPages / 3) ? (
+            <button className="pagination-next" onClick={onNextPage}>
+              {" "}
+              <img
+                className="pagination-previous-icon-next"
+                src="https://cdn-icons-png.flaticon.com/128/8914/8914615.png"
+                alt=""
+              />{" "}
+            </button>
+          ) : (
+            <div className="div-icon"></div>
+          )}
+        </nav>
+      </div>
     </div>
   );
 };

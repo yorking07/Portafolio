@@ -1,9 +1,5 @@
 import React from "react";
-/*
-Link del repositorio: https://github.com/yorking07/Galleta-de-la-fortuna.git 
 
-Link desplegable Vercel: https://galleta-de-la-fortuna-five.vercel.app/ 
-*/
 const Galleta = () => {
   return (
     <article className="portafolio__article">

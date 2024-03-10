@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
 .nav-container {
   position: fixed;
@@ -19,22 +18,21 @@
   width: 100px;
   height: 80px;
 }
-.logotipo:hover{
-  cursor: url('https://cdn-icons-png.flaticon.com/128/3208/3208707.png'), auto;
+.logotipo:hover {
+  cursor: url("https://cdn-icons-png.flaticon.com/128/3208/3208707.png"), auto;
 }
-.name:hover{
-  cursor: url('https://cdn-icons-png.flaticon.com/128/3208/3208707.png'), auto;
+.name:hover {
+  cursor: url("https://cdn-icons-png.flaticon.com/128/3208/3208707.png"), auto;
 }
 
 .logo-de-contacto {
   opacity: 0.8;
-  
 }
-.logo-de-contacto:hover{
+.logo-de-contacto:hover {
   filter: brightness(2);
   border-radius: 15%;
   background-color: rgba(224, 15, 213, 0.795);
-  box-shadow: 0px 0px 10px 5px rgba(224, 15, 213, 0.795)
+  box-shadow: 0px 0px 10px 5px rgba(224, 15, 213, 0.795);
 }
 
 .nav__logotipo__contacto {
@@ -45,16 +43,15 @@
   gap: 15px;
   padding-right: 2%;
 }
-.name{
+.name {
   color: black;
   height: 0px;
   width: 0px;
   position: absolute;
   margin-top: 37px;
   left: 32px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: bold;
-  
 }
 @media (max-width: 520px) {
   .logotipo {
@@ -62,20 +59,20 @@
     width: 70px;
     height: 55px;
   }
-  .name{
+  .name {
     margin-top: 20px;
     left: 17px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-weight: bolder;
   }
 }
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .logotipo {
     padding-left: 10px;
     width: 80px;
     height: 65px;
   }
-  .name{
+  .name {
     margin-top: 28px;
     left: 21px;
   }

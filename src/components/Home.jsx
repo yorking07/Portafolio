@@ -31,7 +31,9 @@ const Home = () => {
       </article>
       <article className="skills">
         <section>
-          <span className="skills__span">Trabajo con los siguientes lenguajes informaticos : </span>
+          <span className="skills__span">
+            Trabajo con los siguientes lenguajes informaticos :{" "}
+          </span>
           <ul className="skills__ul">
             <li className="skillls__li">
               {" "}

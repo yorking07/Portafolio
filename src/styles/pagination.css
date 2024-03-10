@@ -1,110 +1,104 @@
-
-
-.Pagination-container{
-    position: absolute;
-    background-color: rgb(6, 49, 78);
-    margin-bottom: 50px;
-    width: 100%;
-    display: grid;
-    justify-items: center;
-    box-shadow: inset 5px 5px 10px 0 rgb(255, 18, 243);
-    height: 650px;
+.Pagination-container {
+  position: absolute;
+  background-color: rgb(6, 49, 78);
+  margin-bottom: 50px;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  box-shadow: inset 5px 5px 10px 0 rgb(255, 18, 243);
+  height: 650px;
 }
 
-.pagination{
-    width: 1080px;
-    display: flex;
-    justify-content: space-around;
-    
+.pagination {
+  width: 1080px;
+  display: flex;
+  justify-content: space-around;
 }
-.pagination-list{
-    list-style: none;
-    padding: 0;
-    display: flex;
+.pagination-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
 }
-.pagination-previous{
-    background-color: transparent;
-    border: none;
-    width: 80px;
+.pagination-previous {
+  background-color: transparent;
+  border: none;
+  width: 80px;
 }
-.pagination-next{
-    width: 80px;
-    background-color: transparent;
-    border: none;
-}
-
-.pagination-previous-icon{
-    margin-top: 3.5vh;
-    width: 8vh;
-    transition: transform 0.3s ease;
-}
-.pagination-previous-icon:hover{
-    color: white;
-    transform: scale(1.1); /* Aumenta el tamaño en un 10% */
-    cursor: pointer;
-    transition: transform 0.3s ease;
-    
+.pagination-next {
+  width: 80px;
+  background-color: transparent;
+  border: none;
 }
 
-.pagination-previous-icon-next{
-    margin-top: 3.5vh;
-    width: 8vh;
-    rotate: 180deg;
-    transition: transform 0.3s ease;
+.pagination-previous-icon {
+  margin-top: 3.5vh;
+  width: 8vh;
+  transition: transform 0.3s ease;
 }
-.pagination-previous-icon-next:hover{
-    color: white;
-    transform: scale(1.1); /* Aumenta el tamaño en un 10% */
-    cursor: pointer;
-    transition: transform 0.3s ease;
-    
-    
-}
-.pagination-link{
-    font-size: 20px;
-    height: 45px;
-    width: 45px;
-    background-color: transparent;
-    border-color: black;
-    border-radius: 25%;
-    border: 2px solid rgb(0, 0, 0);
-    transition: transform 0.3s ease;
-}
-.pagination-link:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-    background-color: rgba(224, 15, 213, 0.795);
-    
-    transition: transform 0.3s ease;
-}
-.is-current{
-    background-color: rgba(224, 15, 213, 0.795);
-    box-shadow: 0px 0px 10px 8px rgba(224, 15, 213, 0.795)
+.pagination-previous-icon:hover {
+  color: white;
+  transform: scale(1.1); /* Aumenta el tamaño en un 10% */
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
-.pagination-list-li{
-    margin-top: 25px;
-    display: flex;
-    align-items: center;
-    padding-right: 10px;
+.pagination-previous-icon-next {
+  margin-top: 3.5vh;
+  width: 8vh;
+  rotate: 180deg;
+  transition: transform 0.3s ease;
+}
+.pagination-previous-icon-next:hover {
+  color: white;
+  transform: scale(1.1); /* Aumenta el tamaño en un 10% */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.pagination-link {
+  font-size: 20px;
+  height: 45px;
+  width: 45px;
+  background-color: transparent;
+  border-color: black;
+  border-radius: 25%;
+  border: 2px solid rgb(0, 0, 0);
+  transition: transform 0.3s ease;
+}
+.pagination-link:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  background-color: rgba(224, 15, 213, 0.795);
+
+  transition: transform 0.3s ease;
+}
+.is-current {
+  background-color: rgba(224, 15, 213, 0.795);
+  box-shadow: 0px 0px 10px 8px rgba(224, 15, 213, 0.795);
 }
 
-.div-icon{
-    margin-top: 3.5vh;
-    width: 80px;
+.pagination-list-li {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.div-icon {
+  margin-top: 3.5vh;
+  width: 80px;
 }
 @media (max-width: 520px) {
-    .pagination{
-        width: 100vw;
-    }
+  .pagination {
+    width: 100vw;
+  }
 }
 @media (max-width: 768px) {
-    .pagination{
-        width: 100vw;
-    }
+  .pagination {
+    width: 100vw;
+  }
 }
-@media (max-width: 1080px){
-    .pagination{
-        width: 100vw;
-    }
+@media (max-width: 1080px) {
+  .pagination {
+    width: 100vw;
+  }
 }

@@ -29,7 +29,7 @@ const Nav = () => {
           </a>
           {/**linkedin */}
           <a
-            href="https://www.google.com"
+            href="https://linkedin.com/in/Yorking07"
             target="_blank"
             className="logo-de-contacto"
           >
