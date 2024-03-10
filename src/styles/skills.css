@@ -1,42 +1,29 @@
-.skills {
-  margin-top: 5vh;
-}
-.skills__image {
-  width: 80px;
-}
-.skills__ul {
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-.skillls__li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 15px;
-}
-.skills__span {
-  margin-left: 20px;
-  text-indent: 0;
-}
-@media (max-width: 520px) {
-  .skills__ul {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+@keyframes slide {
+  from {
+    transform: translateX(0);
   }
-  .skills__image {
-    width: 50px;
-  }
-  .skills__span {
-    font-size: 19px;
+  to {
+    transform: translateX(-100%);
   }
 }
-@media (max-width: 520px) {
-  .skills__span {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
+.logos-slide-img {
+  height: 80px;
+  margin: 0 45px;
+  border-radius: 25px;
+  background-color: rgba(224, 15, 213, 0.795);
+  box-shadow: 0px 0px 10px 5px rgba(224, 15, 213, 0.795);
+}
+
+.logos {
+  white-space: nowrap;
+  width: 1080px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  position: relative;
+}
+
+.logos-slide {
+  display: inline-block;
+  white-space: nowrap;
+  animation: 35s slide infinite linear;
 }
